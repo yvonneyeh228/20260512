@@ -1,0 +1,6 @@
+{
+  "name": "終極猜數字 Guess Master",
+  "description": "一款簡潔且具互動性的猜數字遊戲（1-100），提供即時反饋和次數追蹤。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
