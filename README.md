@@ -2,19 +2,23 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# 終極猜數字 (Ultimate Number Guessing)
 
-This contains everything you need to run your app locally.
+一個基於 React + Vite + Tailwind CSS 開發的精美猜數字遊戲。
 
-View your app in AI Studio: https://ai.studio/apps/f613a8e9-c3d6-4cde-a7f1-b8c5b7cbd698
+## 專案特點
+- **精美 UI**: 使用 Tailwind CSS 打造現代感、具磨砂玻璃質感的介面。
+- **生動動畫**: 整合 Framer Motion (motion/react) 提供流暢的轉換與微動畫。
+- **響應式設計**: 完美適配手機與桌面裝置。
+- **模組化架構**: 邏輯與 UI 分離，元件高度解耦。
 
-## Run Locally
+## 專案結構
+- `src/hooks/useGuessGame.ts`: 遊戲核心邏輯 Hook。
+- `src/components/`: 功能拆解後的 UI 元件。
+- `src/types/game.ts`: 型別定義。
+- `src/App.tsx`: 應用程式進入點。
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 如何執行
+1. 安裝依賴：`npm install`
+2. 啟動開發伺服器：`npm run dev`
+3. 建立生產版本：`npm run build`
